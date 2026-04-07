@@ -1,12 +1,12 @@
 package com.example.kmp_basic_app
 
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import com.example.kmp_basic_app.ui.navigation.AppNavigation
+import com.example.kmp_basic_app.ui.theme.AppTheme
 
 @Composable
 fun App() {
-    MaterialTheme {
-        Text("Loading...")
+    AppTheme {
+        AppNavigation()
     }
 }

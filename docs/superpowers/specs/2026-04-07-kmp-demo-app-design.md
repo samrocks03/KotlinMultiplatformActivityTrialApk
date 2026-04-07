@@ -9,6 +9,7 @@
 ## 1. Overview
 
 A Kotlin Multiplatform demo application demonstrating clean architecture with:
+
 - **Two GraphQL APIs** — Rick and Morty (read-only, rich data) + GraphQLZero (full CRUD)
 - **Offline storage** — SQLDelight for favorites and cached data
 - **Platform features** — Camera (CameraX / AVFoundation) and GPS (FusedLocation / CoreLocation)
@@ -26,7 +27,7 @@ A Kotlin Multiplatform demo application demonstrating clean architecture with:
 
 ## 2. Module Structure
 
-```
+```bash
 KMP_Basic_App/
 ├── shared/                          <- KMP library (business logic + data)
 │   ├── src/commonMain/kotlin/
@@ -183,6 +184,7 @@ data class GpsLocation(
 ### Rick and Morty (`src/commonMain/graphql/rickandmorty/`)
 
 **GetCharactersQuery.graphql:**
+
 ```graphql
 query GetCharacters($page: Int, $nameFilter: String) {
   characters(page: $page, filter: { name: $nameFilter }) {
@@ -198,6 +200,7 @@ query GetCharacters($page: Int, $nameFilter: String) {
 ```
 
 **GetCharacterDetailQuery.graphql:**
+
 ```graphql
 query GetCharacterDetail($id: ID!) {
   character(id: $id) {
@@ -212,6 +215,7 @@ query GetCharacterDetail($id: ID!) {
 ### GraphQLZero (`src/commonMain/graphql/graphqlzero/`)
 
 **GetPostsQuery.graphql:**
+
 ```graphql
 query GetPosts($page: Int, $limit: Int) {
   posts(options: { paginate: { page: $page, limit: $limit } }) {
@@ -222,6 +226,7 @@ query GetPosts($page: Int, $limit: Int) {
 ```
 
 **CreatePostMutation.graphql:**
+
 ```graphql
 mutation CreatePost($title: String!, $body: String!) {
   createPost(input: { title: $title, body: $body }) {
@@ -231,6 +236,7 @@ mutation CreatePost($title: String!, $body: String!) {
 ```
 
 **UpdatePostMutation.graphql:**
+
 ```graphql
 mutation UpdatePost($id: ID!, $title: String!, $body: String!) {
   updatePost(id: $id, input: { title: $title, body: $body }) {
@@ -240,6 +246,7 @@ mutation UpdatePost($id: ID!, $title: String!, $body: String!) {
 ```
 
 **DeletePostMutation.graphql:**
+
 ```graphql
 mutation DeletePost($id: ID!) {
   deletePost(id: $id)
@@ -331,12 +338,14 @@ DELETE FROM CapturedPhotoEntity WHERE id = ?;
 ### Screen Details
 
 **Characters Tab:**
+
 - Paginated list with search/filter
 - Pull-to-refresh
 - Tap -> Character Detail (pushed)
 - Character Detail: hero image, status badge, origin/location, episode list, favorite toggle
 
 **Posts Tab:**
+
 - Paginated list
 - FAB (Android) / toolbar button (iOS) -> Create Post modal
 - Tap -> Edit Post modal
@@ -344,18 +353,21 @@ DELETE FROM CapturedPhotoEntity WHERE id = ?;
 - Empty state when no posts
 
 **Camera Tab:**
+
 - "Capture Photo" button
 - Opens native camera (CameraX on Android, UIImagePickerController on iOS)
 - Photo preview with GPS coordinates overlay
 - History list of captured photos below
 
 **GPS Tab:**
+
 - Permission request flow with explanation
 - Current coordinates display (lat, lng, accuracy)
 - Last updated timestamp
 - Refresh button
 
 **Favorites Tab:**
+
 - SQLDelight-backed reactive list
 - Same card/row style as Characters
 - Tap -> Character Detail
@@ -365,6 +377,7 @@ DELETE FROM CapturedPhotoEntity WHERE id = ?;
 ### Platform UI Patterns
 
 **Android (Material3):**
+
 - `NavigationBar` bottom tabs with Material icons
 - `TopAppBar` with back navigation for detail screens
 - `Scaffold` wrapping every screen
@@ -375,6 +388,7 @@ DELETE FROM CapturedPhotoEntity WHERE id = ?;
 - `SwipeToDismiss` for delete actions
 
 **iOS (HIG + SwiftUI):**
+
 - `TabView` with SF Symbols
 - `NavigationStack` per tab with native back swipe
 - `.navigationTitle()` with large/inline styles
@@ -439,15 +453,18 @@ expect class PlatformLocationProvider {
 ### Koin DI Configuration
 
 **Shared module (commonMain):**
+
 - Apollo clients (one per GraphQL endpoint)
 - Repository implementations
 - All UseCases as `factory`
 
 **Android module (composeApp):**
+
 - Platform implementations (Camera, GPS) with Android `Context`
 - All ViewModels as `viewModel`
 
 **iOS setup (Swift):**
+
 - `KoinHelper` class to access shared Koin graph
 - Platform implementations initialized in Swift and provided to Koin
 
@@ -468,6 +485,7 @@ sealed class AppError {
 ```
 
 All UseCases return `Result<T>`. Repositories wrap Apollo responses:
+
 - `response.exception` -> `AppError.Network`
 - `response.errors` -> `AppError.GraphQL`
 - Success -> `Result.success(data.toDomain())`
@@ -475,6 +493,7 @@ All UseCases return `Result<T>`. Repositories wrap Apollo responses:
 ### UI Layer
 
 Both platforms use a `UiState` pattern:
+
 - `Loading` -> show spinner/skeleton
 - `Success(data)` -> show content
 - `Error(message)` -> show error with retry

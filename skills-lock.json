@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "skills": {
+    "accessibility-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "b5fde429f7af0cc72e7bd9947cd324e2977836fde539f0b30645421d8ad17396"
+    },
+    "analytics-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "345231140fcd2708d8ceb17b322bb5bfa9f5debe29c879929d693bc7010f8d93"
+    },
+    "android-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "a0f876a4d2f7e290c7d62b22bc2463f9b80ddc65c7eb65e0e04b209d9c04a1da"
+    },
+    "apollo-kotlin": {
+      "source": "apollographql/skills",
+      "sourceType": "github",
+      "computedHash": "3bf3ee6fb3d736e9a65a82df0c738f3cff672710551f753929ebcdf27c54bb23"
+    },
+    "apollo-mcp-server": {
+      "source": "apollographql/skills",
+      "sourceType": "github",
+      "computedHash": "7bf2b3403ef5925e3dd78973b7035317b4957be05d6ef994749f3ab2ad6b1ef5"
+    },
+    "apollo-router": {
+      "source": "apollographql/skills",
+      "sourceType": "github",
+      "computedHash": "8f075254b3d855a2fe4d8cca5b5eaed76f344c3cb6fd06defb2a26ba031b0d26"
+    },
+    "app-lifecycle": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "081753527f416ca38042569ef4f5b6947e630dab53b74fc9f394877a19bdd215"
+    },
+    "camerax_avfoundation": {
+      "source": "davidcastagnetoa/skills",
+      "sourceType": "github",
+      "computedHash": "cca060d59c558c71cfdcf39521484a3e86814a9a35c683e1dfea1d33ee836da1"
+    },
+    "ci-cd-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "33fbf3257e84c1535cf305d92bdb2bb154e4a76e6e48991ec82dadeb7baa1c49"
+    },
+    "combine-framework": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "aa8842a62273a212df906cc64e8d98df9eb0d78ae5605fa04e11a92361b81b93"
+    },
+    "compose": {
+      "source": "andvl1/claude-plugin",
+      "sourceType": "github",
+      "computedHash": "479e8b329eab4cfd3143443126de2b20930e056c15185dbebd1020ee3d95c544"
+    },
+    "compose-multiplatform-patterns": {
+      "source": "affaan-m/everything-claude-code",
+      "sourceType": "github",
+      "computedHash": "bb1c2a3397b144a0a5ac4f6c4bcb44514ec52a7020becd794eeceb62eee69b0d"
+    },
+    "continuous-learning": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "ee79ddda03d71f7a1ec7cb2df5d22054b2fc1358fcca152568097677efc46107"
+    },
+    "continuous-learning-v2": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "db5ddc29e516c493e5cfa35760b3d5cb62b6fd040dee79cc12c50445fa28128c"
+    },
+    "core-data": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "b493a059d71ced71d35f51d822e11b5ac0e6aa76412c06215b2a3db11745b2cb"
+    },
+    "coroutines-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "cd37f2262e5adbde683dca9a6697884a2986bcbfce70df952a16020a781afea7"
+    },
+    "decompose": {
+      "source": "andvl1/claude-plugin",
+      "sourceType": "github",
+      "computedHash": "a52e39fbd366b57b410a09c9fdb19179863f2f1570e57ba4220d428691846feb"
+    },
+    "deep-linking": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "c4cb42c5772860326a31145ebb9a8b33a6c83dddfb7c8426010dc1c487c29c7d"
+    },
+    "expect-actual": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "c92b899d48dfa52d36ebfc7e678687d777b04f7d9548cca77b3323fc3bbd463d"
+    },
+    "feature-builder": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "2056aa87ef10b330a7f1a05800fe4d02b20127433d77e157f2aef1d43121d7ea"
+    },
+    "feature-flags": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "63808ee011d237933978dee4e075eea684db816c76c6727991be4c0666b659a1"
+    },
+    "gradle-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "dea885fba4dfbd838a6930a74e294516fd6b34a407c5d4c754359ced96e4e84d"
+    },
+    "graphql-operations": {
+      "source": "apollographql/skills",
+      "sourceType": "github",
+      "computedHash": "d0532171706cbba72112a6f3ffdc49d5d15b22fdd092de7324099e767bf1cbf1"
+    },
+    "graphql-schema": {
+      "source": "apollographql/skills",
+      "sourceType": "github",
+      "computedHash": "92b5f143d4d7f80a2fd5fe5421bccaa0ec35b1f9f4acdf3f71a019191cf3c4a4"
+    },
+    "image-loading": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "247523afa289644284889119298c05af1e674ee8e321abce2bb0f0ecdd7ed7e3"
+    },
+    "ios-testing": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "adf4424b16c684365fb5cbf9ad98beec286f2622962bc0cadf92a26664b48a13"
+    },
+    "jetpack-compose": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "9dddeb8250fd8abd56f185a67c46748a71810e32b70a2c077a8c1cb6b94a4e91"
+    },
+    "kmp": {
+      "source": "andvl1/claude-plugin",
+      "sourceType": "github",
+      "computedHash": "e3e35a648d647d1208a7b9abb769c3d6a1f1e9bedb6444d6e4c4dbd9f02399b3"
+    },
+    "kmp-di": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "1c9906a7044bf114b3287a18ca4c0cda7d2a4f731668f110e247d13c9593aafc"
+    },
+    "kmp-navigation": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "c0b0089690d35b8139d532ffb7f99f3a620d47eaa3934b9fe81606cda9704794"
+    },
+    "kmp-networking": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "0d46f913e78eca3c3f3f9c4d410c7a36943e9bbde554967cdd75ff0061484eb8"
+    },
+    "kmp-repositories": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "35f239e98d12bfe73666432aa8397b1d40f519b8f057e5aceebf492d85e4d568"
+    },
+    "koin-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "66d3a8813213ce12080f41948711274639f598d38fdf66a2b43193d101027cca"
+    },
+    "kotlin-coroutines-flows": {
+      "source": "affaan-m/everything-claude-code",
+      "sourceType": "github",
+      "computedHash": "dc26f1f68010e6b79f0e18c71a3677f80da1c54dd0356e5e9c080ee2b6644910"
+    },
+    "kotlin-mcp-server-generator": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "f1d6d04bd8302df9bc5e6dcbb069c28978aec490fada7c7c37cbe46f3250ede3"
+    },
+    "kotlin-multiplatform": {
+      "source": "vitorpamplona/amethyst",
+      "sourceType": "github",
+      "computedHash": "6c3e5ad1fd6482d1b8a7268b3141794b241e66e17abdb61847e8ea9ee1b9e673"
+    },
+    "kotlin-specialist": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "computedHash": "7d44fcb668a32ca4f4bdbcf7f42c21ef426bed2bb8d7244d0b6de9419dac1a33"
+    },
+    "ktor-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "b25ecc6989b47de608372cf5fbac0d37659e0f291d1a5f9e2ce70740a51ccfc8"
+    },
+    "liquid-glass": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "61e71c8fffead59e1b2133268a25b95f4284d73c5473d0e11f216f94008941e0"
+    },
+    "localization-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "bac9a3934c972be4f76471df1efd9deab1cad1ebd122904c0e63e89d1a32edc1"
+    },
+    "m3-expressive": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "6951e6064b78350d8e60b2f5f235b1d6f69ffa6be8faa05d2f06535b5bfc473b"
+    },
+    "mapbox-search-patterns": {
+      "source": "mapbox/mapbox-agent-skills",
+      "sourceType": "github",
+      "computedHash": "c92de6e6f3338c75a6e71cfa9ca41ca79de9e4315b2e2807a44a524cc8a07ac4"
+    },
+    "mobile-checkpoint": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "b0f80bcc48cf70ce526acfeed70b67b7a3706817a913623e6fbfbdfce514aa51"
+    },
+    "mobile-compaction": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "ff1b9955305abaf46afbdcbaf4a5a1665d76958ea28a86ccf834570788ce6b2e"
+    },
+    "mobile-instinct-v1": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "3d88b58143114336a7fdce306be7787b8cca5fb388bee8994841d4d0fc08a3a2"
+    },
+    "mobile-instinct-v2": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "e347459cfc704bef3f83bd0fe80d7377f24542561b6b2cf97aa3ade0592150a1"
+    },
+    "mobile-memory": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "511375ae08111bd0745a8ede7ed35787b8d17dfa685aac5530517cbc1b1c921b"
+    },
+    "mobile-security": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "38525cad6ee4e6599a4bc13cdddb78bf74005bf78891ea38c9da5da3fe61e7ae"
+    },
+    "mobile-testing": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "71cd96bf0707d3fb6769ed8d37204b135d877c798217ab141420b3e84bf4a678"
+    },
+    "mobile-verification": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "a8e58857e9e783adff8ef7e9e67def7203fd263f3816bceffd5e5efd4f84ea80"
+    },
+    "mvi-architecture": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "8ea59a8cdb50b14a05f739ee75b5f639f8a4228e508c8202a4ccea4d17bac6b0"
+    },
+    "navigation-compose": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "525069a98f5317439d66ecd6fd615d7bcf3ee29c2c89e51e61f9d79997340d74"
+    },
+    "offline-first": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "566679346d63842ce0f955fde83e38e1182cc682e8b4dcb904a69960aa65bf3d"
+    },
+    "pagination-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "5f294c7acf6dfcf455ee76155f88d43fe453b48f1e6a769597b88a669c785e04"
+    },
+    "push-notifications": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "ee0de853deff41eb60160732bacf6a3544a605c94ad0c43eacdde3e74346ef9a"
+    },
+    "room-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "652de6c83d97f9d85670f604ee2f7c665268c4f6ef2408688eac6824be800497"
+    },
+    "shared-coroutines": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "e50094df157bdcab41c890e354c884d97fad608e1906db84ff644e99c19f788c"
+    },
+    "shared-models": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "fa4698d004056c21af5ff50aab00447637c6d29ff24e04aa5929b0accb36333d"
+    },
+    "skill-creator": {
+      "source": "apollographql/skills",
+      "sourceType": "github",
+      "computedHash": "44def51b2bb66c2eafe75e8f29ae8ace901531b4eb47cffd1fb7cf3109631092"
+    },
+    "sqldelight-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "4b91a00e18220c6f3f7f1f99f683323e21601123f7a41330f7e0bba9151fad06"
+    },
+    "swift-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "539ef3a14de11cba52331914b732cfa2930e3f901eca70b6bc4da360f1084fcc"
+    },
+    "swiftui-patterns": {
+      "source": "ahmed3elshaer/everything-claude-code-mobile",
+      "sourceType": "github",
+      "computedHash": "645935426649248332b573f02d1a9f88a45930ea0b114983df7087edb9c3a96a"
+    }
+  }
+}

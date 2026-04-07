@@ -306,6 +306,11 @@
       "sourceType": "github",
       "computedHash": "4b91a00e18220c6f3f7f1f99f683323e21601123f7a41330f7e0bba9151fad06"
     },
+    "stitch-design": {
+      "source": "google-labs-code/stitch-skills",
+      "sourceType": "github",
+      "computedHash": "6df709345652460b4d4fdf214476a20c75d76a2ae011a958a51de2c88e6d86d1"
+    },
     "swift-patterns": {
       "source": "ahmed3elshaer/everything-claude-code-mobile",
       "sourceType": "github",
@@ -315,6 +320,11 @@
       "source": "ahmed3elshaer/everything-claude-code-mobile",
       "sourceType": "github",
       "computedHash": "645935426649248332b573f02d1a9f88a45930ea0b114983df7087edb9c3a96a"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "computedHash": "0a413bf988d06481f69bb81df2070741c3ba12dd9f1be2706d57f259c905992d"
     }
   }
 }

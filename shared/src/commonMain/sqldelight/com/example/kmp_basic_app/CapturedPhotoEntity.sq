@@ -1,0 +1,18 @@
+CREATE TABLE CapturedPhotoEntity (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    file_path TEXT NOT NULL,
+    timestamp INTEGER NOT NULL,
+    latitude REAL,
+    longitude REAL,
+    accuracy REAL
+);
+
+selectAll:
+SELECT * FROM CapturedPhotoEntity ORDER BY timestamp DESC;
+
+insert:
+INSERT INTO CapturedPhotoEntity(file_path, timestamp, latitude, longitude, accuracy)
+VALUES (?, ?, ?, ?, ?);
+
+deleteById:
+DELETE FROM CapturedPhotoEntity WHERE id = ?;

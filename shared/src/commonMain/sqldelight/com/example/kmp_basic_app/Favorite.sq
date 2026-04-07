@@ -1,0 +1,21 @@
+CREATE TABLE Favorite (
+    character_id TEXT NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL,
+    status TEXT NOT NULL,
+    species TEXT NOT NULL,
+    image_url TEXT NOT NULL,
+    added_at INTEGER NOT NULL
+);
+
+selectAll:
+SELECT * FROM Favorite ORDER BY added_at DESC;
+
+insert:
+INSERT OR REPLACE INTO Favorite(character_id, name, status, species, image_url, added_at)
+VALUES (?, ?, ?, ?, ?, ?);
+
+deleteById:
+DELETE FROM Favorite WHERE character_id = ?;
+
+isFavorite:
+SELECT COUNT(*) FROM Favorite WHERE character_id = ?;

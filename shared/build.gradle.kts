@@ -45,6 +45,7 @@ kotlin {
             implementation(libs.camerax.lifecycle)
             implementation(libs.camerax.view)
             implementation(libs.play.services.location)
+            implementation(libs.lifecycle.process)
         }
         iosMain.dependencies {
             implementation(libs.sqldelight.native.driver)

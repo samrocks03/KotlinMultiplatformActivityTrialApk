@@ -166,6 +166,11 @@
       "sourceType": "github",
       "computedHash": "66d3a8813213ce12080f41948711274639f598d38fdf66a2b43193d101027cca"
     },
+    "kotlin-compose": {
+      "source": "pluginagentmarketplace/custom-plugin-kotlin",
+      "sourceType": "github",
+      "computedHash": "cd19ca36265cd33948c6218c6da535e62e7de495494b5b3d4ee1abba7f6d167c"
+    },
     "kotlin-coroutines-flows": {
       "source": "affaan-m/everything-claude-code",
       "sourceType": "github",

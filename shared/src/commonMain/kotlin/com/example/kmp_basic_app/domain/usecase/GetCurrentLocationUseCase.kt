@@ -12,7 +12,7 @@ class GetCurrentLocationUseCase(
                 locationProvider.requestPermission()
             }
             if (!locationProvider.isPermissionGranted()) {
-                return Result.failure(SecurityException("Location permission not granted"))
+                return Result.failure(IllegalStateException("Location permission not granted"))
             }
             Result.success(locationProvider.getCurrentLocation())
         } catch (e: Exception) {

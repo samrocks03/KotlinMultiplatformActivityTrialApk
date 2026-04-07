@@ -70,6 +70,7 @@ apollo {
     service("rickandmorty") {
         packageName.set("com.example.kmp_basic_app.graphql.rickandmorty")
         srcDir("src/commonMain/graphql/rickandmorty")
+        schemaFiles.from(file("src/commonMain/graphql/rickandmorty/schema.graphqls"))
         introspection {
             endpointUrl.set("https://rickandmortyapi.com/graphql")
             schemaFile.set(file("src/commonMain/graphql/rickandmorty/schema.graphqls"))
@@ -78,6 +79,7 @@ apollo {
     service("graphqlzero") {
         packageName.set("com.example.kmp_basic_app.graphql.graphqlzero")
         srcDir("src/commonMain/graphql/graphqlzero")
+        schemaFiles.from(file("src/commonMain/graphql/graphqlzero/schema.graphqls"))
         introspection {
             endpointUrl.set("https://graphqlzero.almansi.me/api")
             schemaFile.set(file("src/commonMain/graphql/graphqlzero/schema.graphqls"))
